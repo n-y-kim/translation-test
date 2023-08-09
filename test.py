@@ -5,7 +5,10 @@ en = gettext.translation('lokalise', './locales', languages=['en'] ,fallback=Tru
 fr = gettext.translation('lokalise', './locales', languages=['fr'] ,fallback=True)
 
 ko.install()
-en.install()
-fr.install()    
+print(_("Hello, world!"))
 
+en.install()
+print(_("Hello, world!"))
+
+fr.install()    
 print(_("Hello, world!"))
